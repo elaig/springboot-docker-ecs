@@ -19,7 +19,7 @@ public class SpringbootDockerAwsEcsApplication {
 
     @GetMapping("/{name}")
     public String welcome(@PathVariable String name) {
-        return "Hi " + name + " Welcome to javatechie AWS ECS Example";
+        return "Hi " + name + " Welcome to vibha P1 AWS ECS Example";
     }
 
     public static void main(String[] args) {
